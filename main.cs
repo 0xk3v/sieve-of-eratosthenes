@@ -8,7 +8,7 @@ namespace Program
 		{
 			int nbr, multiple , multiplier = 2;
 			Console.WriteLine("\n********* Sieve of Eratosthenes *********");
-			Console.Write("Enter a Number to find Prime Numbers: ");
+			Console.Write("Enter a Number to find Prime Numbers Below it: ");
 			while(!int.TryParse(Console.ReadLine(), out nbr) || nbr < 2);
 
 			bool[] isPrime = new bool[nbr];
